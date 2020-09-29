@@ -2,5 +2,5 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', 'VnphoneController@showAll');
-Route::post('/', 'VnphoneController@searchByUid');
+Route::get('/', 'VnphoneController@index');
+Route::post('/', 'VnphoneController@handleSubmit');
